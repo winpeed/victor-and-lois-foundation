@@ -1,8 +1,10 @@
 import AboutMission from "@/components/About/AboutMission";
+import BoardofTrustees from "@/components/About/BoardofTrustees";
 import CaughInTheWeb from "@/components/About/CaughInTheWeb";
 import DynamicHero from "@/components/About/DynamicHero";
 import Values from "@/components/About/Values";
 import WhatWeDo from "@/components/About/WhatWeDo";
+import NoDrugs from "@/components/Home/NoDrugs";
 
 const AboutPage = () => {
   return (
@@ -24,6 +26,13 @@ const AboutPage = () => {
         <AboutMission />
         <WhatWeDo />
         <CaughInTheWeb />
+        <NoDrugs
+          backgroundImage="BreakFree.png"
+          title="DON'T DO DRUGS; BE SMART, DON'T START"
+          text='"Breaking free from drug addiction is a journey toward a healthy and happy life. Choose freedom, embrace support, and take the first step in the right direction today. You are stronger than you think!"'
+          textClassName="text-white md:w-1/2 text-base"
+        />
+        <BoardofTrustees />
       </section>
     </div>
   );

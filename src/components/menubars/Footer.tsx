@@ -5,6 +5,7 @@ import twitter from "@/assets/SVG/twitter.svg";
 import insta from "@/assets/SVG/insta.svg";
 import facebook from "@/assets/SVG/facebook.svg";
 import youtube from "@/assets/SVG/youtube.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -46,13 +47,15 @@ const Footer = () => {
             </section>
           </div>
           <div className="lg:w-[50%] mx-auto">
-            <div className="h-48 w-48 mx-auto">
-              <img
-                src="/VictorLoisLogo.svg"
-                alt="logo"
-                className="w-full h-full"
-              />
-            </div>
+            <Link to="/">
+              <div className="h-48 w-48 mx-auto">
+                <img
+                  src="/VictorLoisLogo.svg"
+                  alt="logo"
+                  className="w-full h-full"
+                />
+              </div>
+            </Link>
             <section className="text-center text-sm font-medium">
               <h3 className="font-extrabold text-xl">ABOUT US</h3>
               <p>
