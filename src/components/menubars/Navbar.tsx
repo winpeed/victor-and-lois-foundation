@@ -29,7 +29,9 @@ const Navbar = () => {
           </button>
         )}
         <div className="flex gap-1 items-center md:w-[25%]">
-          <img src="/VictorLoisLogo.svg" alt="logo" />
+          <Link to="/">
+            <img src="/VictorLoisLogo.svg" alt="logo" />
+          </Link>
           <p className="text-xs font-semibold">
             The Victor and Lois Abraham Foundation
           </p>
@@ -66,7 +68,7 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                to="#about"
+                to="/about"
                 onClick={showNav}
                 className={getLinkClass("#about")}
               >
