@@ -18,7 +18,7 @@ const NoDrugs = ({
       }}
       className=" sm:py-20 py-10 px-10"
     >
-      <h3 className="sm:text-4xl text-xl font-extrabold text-white">{title}</h3>
+      <h3 className="sm:text-3xl text-xl font-extrabold text-white">{title}</h3>
       <p
         className={`text-TextGold ${textClassName} text-lg font-semibold  my-3 italic`}
       >
