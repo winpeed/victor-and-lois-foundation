@@ -4,10 +4,10 @@ const NoDrugs = ({
   text = "“If you can quit for a day, you can quit for a life time”",
   textClassName,
 }: {
-  backgroundImage: string;
-  title: string;
-  text: string;
-  textClassName: string;
+  backgroundImage?: string;
+  title?: string;
+  text?: string;
+  textClassName?: string;
 }) => {
   return (
     <div

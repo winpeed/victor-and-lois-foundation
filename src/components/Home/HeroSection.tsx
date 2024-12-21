@@ -12,8 +12,8 @@ const HeroSection = () => {
           Embrace the joy of freedom from drug addiction/abuse and prostitution,
           regain your dignity, discover your destiny and realize your dreams.
         </p>
-        <Button className="bg-ButtonGreeenGradient rounded-[14px] h-9 w-32 font-medium text-lg">
-          View
+        <Button className="bg-ButtonGreeenGradient rounded-[14px] h-9 w-100 font-medium text-lg">
+          Support Foundation
         </Button>
       </section>
     </div>

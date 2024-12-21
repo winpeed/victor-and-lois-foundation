@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import rehabilitation from "@/assets/images/rehabilitation.png";
 import prevention from "@/assets/images/prevention.png";
 import afterCare from "@/assets/images/afterCare.png";
@@ -23,11 +22,11 @@ export const Card = ({
         </h3>
         <p className="my-3 text-sm text-center text-TextGreen">{text}</p>
       </div>
-      <div className="h-[5%]">
+      {/* <div className="h-[5%]">
         <Button className="bg-[#4F9160] rounded-[10px] w-full h-8 text-sm ">
           MORE
         </Button>
-      </div>
+      </div> */}
     </section>
   );
 };
