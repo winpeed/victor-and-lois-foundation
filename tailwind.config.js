@@ -15,6 +15,8 @@ export default {
         TextGreen: "#2A6239",
         TextGold: "#FFDD55",
         FooterGreen: "#4F9160",
+        ContactGreen: "#1EAE98",
+        LightPink: "#F5EDED",
       },
       backgroundImage: {
         Homehero: "url('/ChainBreak.png')",

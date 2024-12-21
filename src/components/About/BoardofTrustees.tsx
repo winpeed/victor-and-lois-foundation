@@ -50,7 +50,12 @@ const data = [
 const BoardofTrustees = () => {
   return (
     <div className="w-[90%] mx-auto py-10">
-      <h3 className="sm:text-4xl text-xl text-[#1D2671] font-bold mb-5">
+      <h3
+        style={{
+          fontFamily: "Inknut Antiqua, serif",
+        }}
+        className="sm:text-4xl text-xl text-[#1D2671] font-bold mb-5"
+      >
         BOARD OF TRUSTEES AND MEMBERS
       </h3>
       <div className="w-[90%] mx-auto space-y-7">

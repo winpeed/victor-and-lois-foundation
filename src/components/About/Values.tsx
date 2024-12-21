@@ -3,7 +3,7 @@ import OurValues from "@/assets/images/OurValues.png";
 const Values = () => {
   return (
     <div>
-      <section className="bg-[#F5EDED] py-10 ">
+      <section className="bg-LightPink py-10 ">
         <main className="w-[90%] mx-auto sm:flex space-y-4 items-center justify-between">
           <div className="text-center sm:w-[60%]">
             <h3 className="sm:text-3xl text-xl font-extrabold text-black">
