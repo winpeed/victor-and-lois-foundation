@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { Button } from "../ui/button";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-HomeGradientHero relative ">
       <div className="absolute inset-0 bg-Homehero bg-cover bg-center bg-no-repeat z-10"></div>
@@ -12,8 +14,11 @@ const HeroSection = () => {
           Embrace the joy of freedom from drug addiction/abuse and prostitution,
           regain your dignity, discover your destiny and realize your dreams.
         </p>
-        <Button className="bg-ButtonGreeenGradient rounded-[14px] h-9 w-100 font-medium text-lg">
-          Support Foundation
+        <Button
+          className="bg-ButtonGreeenGradient rounded-[14px] h-9 w-100 font-medium text-lg"
+          onClick={() => navigate("/donate")}
+        >
+          Support
         </Button>
       </section>
     </div>

@@ -9,7 +9,6 @@ const Service = () => {
       <DynamicHero
         backgroundImage="servicesImage.png"
         title="OUR SERVICES"
-        text="We offer a range of services that cater for both male and female. We provide our services to people of all nationalities that are involved in  different stages of drug and substance abuse and also those involved in prostitution. Our service delivery is  categorized into Three areas/levels:"
       />
       <InfoCard />
       <Courtesy />

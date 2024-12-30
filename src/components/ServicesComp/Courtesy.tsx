@@ -11,10 +11,6 @@ const Courtesy = () => {
               ADDICTION. LET US ALSO JOIN HANDS TOGETHER TO HELP THOSE IN NEED
               TO MAKE OUR SOCIETY AND COUNTRY BETTER.”
             </p>
-            <h3 className=" mt-7 font-extrabold">COURTESY</h3>
-            <p className="italic font-medium">
-              THE VICTOR AND LOIS ABRAHAM FOUNDATION
-            </p>
           </div>
           <div className="sm:w-[35%]">
             <img src={CourtesyImage} alt="CourtesyImage" />
