@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
             </Link>
             <section className="text-center text-sm font-medium">
-              <h3 className="font-extrabold text-xl">ABOUT US</h3>
+              <h3 className="font-extrabold text-xl py-4">ABOUT US</h3>
               <p>
                 The Victor and Lois Foundation is a non-profit, faith-based
                 organisation established in Lagos, Nigeria in 2024. It is worthy

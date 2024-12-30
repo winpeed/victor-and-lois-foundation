@@ -16,7 +16,7 @@ const NoDrugs = ({
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className=" sm:py-20 py-10 px-10"
+      className="sm:py-20 py-20 px-10"
     >
       <h3 className="sm:text-3xl text-xl font-extrabold text-white">{title}</h3>
       <p
