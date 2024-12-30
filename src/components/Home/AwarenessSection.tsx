@@ -1,3 +1,5 @@
+'use client'
+import { useNavigate } from "react-router-dom";
 import { Button } from "../ui/button";
 
 type RenderCardProps = {
@@ -41,6 +43,7 @@ const RenderCard = ({
 };
 
 const AwarenessSection = () => {
+  const navigate = useNavigate()
   return (
     <div className="w-[90%] mx-auto py-5">
       <main className="grid md:grid-cols-4 sm:grid-cols-2 gap-4">
@@ -49,24 +52,28 @@ const AwarenessSection = () => {
           title="CREATE AWARENESS"
           description="Help to create awareness on the dangers of drug addiction and prostitution."
           buttonText="LEARN MORE"
+          onButtonClick={() => navigate('/about')}
         />
         <RenderCard
           backgroundImage="/PreventAbuse.png"
           title="PREVENT ABUSE"
           description="Assist to prevent drug abuse"
           buttonText="GET INVOLVED"
+          onButtonClick={() => navigate('/about')}
         />
         <RenderCard
           backgroundImage="/Rehabilitation.png"
           title="REHABILITATE"
           description="Help to treat and nurture those coming out from drug addiction and prostitution"
           buttonText="SUPPORT US"
+           onButtonClick={() => navigate('/explore')}
         />
         <RenderCard
           backgroundImage="/Needy.png"
           title="HELP THE NEEDY"
           description="Your generous gifts and donations will go a long way in providing sustainable support"
           buttonText="DONATE NOW"
+           onButtonClick={() => navigate('/donate')}
         />
       </main>
     </div>

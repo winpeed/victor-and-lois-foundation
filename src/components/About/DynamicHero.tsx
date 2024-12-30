@@ -16,7 +16,7 @@ const DynamicHero = ({
       }}
       className=" relative h-[270px] "
     >
-      <div className={`${text ? "sm:pt-[70px] pt-10" : "pt-[200px]"}`}>
+      <div className={`${text ? "sm:pt-[70px] pt-10" : "pt-[120px]"}`}>
         <h3 className="text-center  sm:text-4xl text-xl font-extrabold text-white uppercase">
           {title}
         </h3>
