@@ -4,7 +4,6 @@ const Donate = () => {
   return (
     <div>
       <DynamicHero title="DONATE HERE" />
-
       <section className="py-10 relative z-50 text-center text-ContactGreen">
         <h3 className="text-ContactGreen text-center font-bold text-xl">
           ACCOUNT DETAILS BELOW
