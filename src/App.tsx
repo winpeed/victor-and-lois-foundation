@@ -6,6 +6,7 @@ import Footer from "./components/menubars/Footer";
 import AboutPage from "./pages/About";
 import Contact from "./pages/Contact";
 import Service from "./pages/Service";
+import Donate from "./pages/Donate";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/donate" element={<Donate />}></Route>
         <Route path="/explore" element={<Service />}></Route>
       </Routes>
       <Footer />

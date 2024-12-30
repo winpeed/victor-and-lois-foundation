@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "../ui/button";
 import { useState } from "react";
 
@@ -6,6 +6,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const location = useLocation();
+
+  const navigate = useNavigate();
 
   const getLinkClass = (path: string) => {
     const isActive = location.pathname === path;
@@ -51,7 +53,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className=" bg-purple-400">
-          <Button className="uppercase bg-bgGreen font-medium text-xs h-9 px-2 rounded-[4px]">
+          <Button
+            onClick={() => navigate("/donate")}
+            className="uppercase bg-bgGreen font-medium text-xs h-9 px-2 rounded-[4px]"
+          >
             Donate
           </Button>
         </div>
