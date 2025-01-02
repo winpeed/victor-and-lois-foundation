@@ -1,10 +1,10 @@
 import { PhoneIcon } from "@/assets/SVG/FooterIcons";
 import emailIcon from "@/assets/SVG/email.svg";
-import web from "@/assets/SVG/web.svg";
-import twitter from "@/assets/SVG/twitter.svg";
-import insta from "@/assets/SVG/insta.svg";
-import facebook from "@/assets/SVG/facebook.svg";
-import youtube from "@/assets/SVG/youtube.svg";
+// import web from "@/assets/SVG/web.svg";
+// import twitter from "@/assets/SVG/twitter.svg";
+// import insta from "@/assets/SVG/insta.svg";
+// import facebook from "@/assets/SVG/facebook.svg";
+// import youtube from "@/assets/SVG/youtube.svg";
 import { Link } from "react-router-dom";
 
 export const ContactInfo = () => {
@@ -21,7 +21,7 @@ export const ContactInfo = () => {
           <img src={emailIcon} alt="email" />
           <p>vandlfoundation@gmail.com</p>
         </div>
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           <img src={web} alt="email" />
           <p>info@vandlfoundation.org.ng</p>
         </div>
@@ -40,7 +40,7 @@ export const ContactInfo = () => {
         <div className="flex items-center gap-2">
           <img src={youtube} alt="youtube" />
           <p>vandlfoundation</p>
-        </div>
+        </div> */}
       </section>
     </div>
   );
