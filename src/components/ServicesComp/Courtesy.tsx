@@ -7,7 +7,7 @@ const Courtesy = () => {
         <main className="w-[90%] mx-auto sm:flex space-y-4 items-center justify-between text-[#2E9182]">
           <div className="sm:w-[60%] sm:text-2xl ">
             <p className="w-[85%] mt-5 font-semibold">
-              “LET US WORK TOGETHER TO RID OUR SOCIETY OF DRUG ABUSE &
+              “LET US WORK TOGETHER TO RID OUR SOCIETY OF DRUG ABUSE AND
               ADDICTION. LET US ALSO JOIN HANDS TOGETHER TO HELP THOSE IN NEED
               TO MAKE OUR SOCIETY AND COUNTRY BETTER.”
             </p>

@@ -35,16 +35,17 @@ const RenderCard = ({
 };
 
 const data = [
-  { image: AvatarFrame, title: "BOARD OF TRUSTEE", name: "Alero R. Eyesan" },
+  { image: AvatarFrame, title: "BOARD OF TRUSTEES", name: "Alero R. Eyesan" },
   { image: AvatarFrame, title: "PRESIDENT", name: "Victor O. Abraham" },
-  { image: "", title: "BOARD OF TRUSTEE", name: "Rev. Friday B. Obende" },
+  { image: "", title: "BOARD OF TRUSTEES", name: "Rev. Friday B. Obende" },
   { image: "", title: "SECRETARY", name: "Lois Nkem Abraham" },
   { image: "", title: "TREASURER", name: "Praise David Obende" },
   { image: "", title: "MEMBER", name: "Akinyemi T. Komolafe" },
   { image: "", title: "MEMBER", name: "Apostle Harrison N. Osagie" },
-  { image: "", title: "MEMBER", name: "Pastor Remilekun Eyesan" },
+  { image: "", title: "MEMBER", name: "Pst. Remilekun Eyesan" },
   { image: "", title: "MEMBER", name: "Olasunmbo Abraham" },
   { image: "i", title: "MEMBER", name: "Samuel C. ABRAHAM" },
+  { image: "", title: "MEMBER", name: "Olubunmi Matthew" },
 ];
 
 const BoardofTrustees = () => {
@@ -58,42 +59,57 @@ const BoardofTrustees = () => {
       >
         BOARD OF TRUSTEES AND MEMBERS
       </h3>
-      <div className="w-[90%] mx-auto space-y-7">
-        <div className="grid sm:grid-cols-3 grid-cols-2 w-full place-content-center mx-auto ">
-          {data.slice(0, 3).map((item, index) => (
-            <div key={index}>
-              <RenderCard
-                image={item.image}
-                title={item.title}
-                name={item.name}
-              />
-            </div>
-          ))}
-        </div>
-        <div className="mx-auto sm:w-1/2 grid grid-cols-2">
-          {data.slice(3, 5).map((item, index) => (
-            <div key={index}>
-              <RenderCard
-                image={item.image}
-                title={item.title}
-                name={item.name}
-              />
-            </div>
-          ))}
-        </div>
+      <section>
+        <div className="w-full sm:block hidden mx-auto space-y-7">
+          <div className="grid sm:grid-cols-3 grid-cols-2 w-full place-content-center mx-auto ">
+            {data.slice(0, 3).map((item, index) => (
+              <div key={index}>
+                <RenderCard
+                  image={item.image}
+                  title={item.title}
+                  name={item.name}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="mx-auto sm:w-1/2 grid grid-cols-2">
+            {data.slice(3, 5).map((item, index) => (
+              <div key={index}>
+                <RenderCard
+                  image={item.image}
+                  title={item.title}
+                  name={item.name}
+                />
+              </div>
+            ))}
+          </div>
 
-        <div className="grid md:grid-cols-5 grid-cols-2 gap-4 w-full place-items-center">
-          {data.slice(5).map((item, index) => (
-            <div key={index} className="col-span-1">
-              <RenderCard
-                image={item.image}
-                title={item.title}
-                name={item.name}
-              />
-            </div>
-          ))}
+          <div className="grid md:grid-cols-6 grid-cols-2 gap-4 w-full place-items-center">
+            {data.slice(5).map((item, index) => (
+              <div key={index} className="col-span-1">
+                <RenderCard
+                  image={item.image}
+                  title={item.title}
+                  name={item.name}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+        <div className="w-full sm:hidden block">
+          <div className="grid grid-cols-2 w-full place-content-center mx-auto ">
+            {data.map((item, index) => (
+              <div key={index} className="mb-5">
+                <RenderCard
+                  image={item.image}
+                  title={item.title}
+                  name={item.name}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
