@@ -45,6 +45,9 @@ const Navbar = () => {
           <Link className={`${getLinkClass("/about")}`} to="/about">
             About Us
           </Link>
+          <Link className={`${getLinkClass("/blog")}`} to="/blog">
+            Blog
+          </Link>
           <Link className={`${getLinkClass("/explore")}`} to="/explore">
             Explore
           </Link>
