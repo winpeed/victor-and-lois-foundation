@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
         {open && (
           <div
-            className="flex z-[500] flex-col justify-center mx-auto left-0 right-0 items-center w-[100%] absolute top-[20%] bg-white shadow-sm  p-8 "
+            className="flex z-[500] flex-col justify-center mx-auto left-0 right-0 items-center w-[100%] absolute top-[11%] bg-white shadow-sm  p-8 "
             style={{
               transform: open ? "translateY(0)" : "translateY(100%)",
               transition: "transform 0.95s ease-in-out",
@@ -81,6 +81,13 @@ const Navbar = () => {
                 className={getLinkClass("#about")}
               >
                 About Us
+              </Link>
+              <Link
+                to="/blog"
+                onClick={showNav}
+                className={`${getLinkClass("/blog")} `}
+              >
+                Blog
               </Link>
               <Link
                 to="/explore"
