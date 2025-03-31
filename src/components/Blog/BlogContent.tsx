@@ -1,16 +1,15 @@
 import { getEntryById } from "@/api/contentful";
 import defaultOptions from "@/api/richTextOptions";
+import { BlogPost } from "@/models/blog";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { useEffect, useState } from "react";
 import { BiLoaderCircle } from "react-icons/bi";
 import { useNavigate, useParams } from "react-router-dom";
 
-type Props = {};
-
-const BlogContent = (props: Props) => {
-  const navigate = useNavigate()
+const BlogContent = () => {
+  const navigate = useNavigate();
   const { id } = useParams();
-  const [post, setPost] = useState(null);
+  const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -36,26 +35,27 @@ const BlogContent = (props: Props) => {
           textAlign: "center",
           maxWidth: "600px",
           margin: "0 auto",
-          padding: '3em 0em',
-          justifyContent: 'center'
+          padding: "3em 0em",
+          justifyContent: "center",
         }}
       >
         {" "}
-        <BiLoaderCircle fontSize={'5rem'}/>
+        <BiLoaderCircle fontSize={"5rem"} />
       </div>
     );
   if (error) return <div>Error loading post.</div>;
+
   if (!post)
     return (
       <div
-      style={{
-        display: "flex",
-        textAlign: "center",
-        maxWidth: "600px",
-        margin: "0 auto",
-        padding: '3em 0em',
-        justifyContent: 'center'
-      }}
+        style={{
+          display: "flex",
+          textAlign: "center",
+          maxWidth: "600px",
+          margin: "0 auto",
+          padding: "3em 0em",
+          justifyContent: "center",
+        }}
       >
         No post found.
       </div>
@@ -65,14 +65,18 @@ const BlogContent = (props: Props) => {
 
   return (
     <div>
-      
       <main className="mx-auto mt-16 mb-16 max-w-5xl bg-white px-4">
-      <button
-      onClick={() => navigate('/blog')}
-        style={{ padding: "0.6em 1.5em",borderRadius: '1em', background: "#1d2671", color: "white" }}
-      >
-        Go Back
-      </button>
+        <button
+          onClick={() => navigate("/blog")}
+          style={{
+            padding: "0.6em 1.5em",
+            borderRadius: "1em",
+            background: "#1d2671",
+            color: "white",
+          }}
+        >
+          Go Back
+        </button>
         <article>
           <header className="py-4">
             <h2 className="text-5xl font-semibold mb-2 mt-2">

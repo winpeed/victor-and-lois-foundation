@@ -2,8 +2,8 @@ import BreakFreeImage from "@/assets/images/BreakFree.png";
 
 const BreakFree = () => {
   return (
-    <section className=" bg-LightPink  py-10">
-      <div className="w-[90%] mx-auto ">
+    <section className=" bg-LightPink py-10">
+      <div className="w-[90%] mx-auto">
         <h3
           style={{
             fontFamily: "Inknut Antiqua, serif",

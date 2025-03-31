@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       <DynamicHero backgroundImage="ContactImage.png" title="CONTACT US" />
       <ContactForm />
-      <div className="mb-20">
+      <div>
         <BreakFree />
       </div>
     </div>

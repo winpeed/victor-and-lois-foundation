@@ -24,7 +24,7 @@ const fetchBlogPosts = async (): Promise<BlogPost[]> => {
 export const getEntryById = async (id: string) => {
   try {
     const entry = await client.getEntry(id);
-    return entry;
+    return entry as unknown as BlogPost;
   } catch (error) {
     console.error("Error fetching blog post by id:", error);
     throw error;
