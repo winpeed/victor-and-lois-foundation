@@ -1,3 +1,4 @@
+import { BlogPost } from "@/models/blog";
 import { createClient } from "contentful";
 
 const ORDER_BY_CREATED_AT = "-sys.createdAt" as const;
@@ -7,13 +8,13 @@ const client = createClient({
   accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
 });
 
-const fetchBlogPosts = async () => {
+const fetchBlogPosts = async (): Promise<BlogPost[]> => {
   try {
     const response = await client.getEntries({
       content_type: "blogPost",
       order: [ORDER_BY_CREATED_AT],
     });
-    return response.items;
+    return response.items as unknown as BlogPost[];
   } catch (error) {
     console.error("Error fetching blog posts:", error);
     throw error;

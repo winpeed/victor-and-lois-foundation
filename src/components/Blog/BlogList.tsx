@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import defaultOptions from "@/api/richTextOptions";
 import { BiLoaderCircle } from "react-icons/bi";
+import { BlogPost } from "@/models/blog";
 
-type Props = {};
-
-const BlogList = (props: Props) => {
-  const [posts, setPosts] = useState([]);
+const BlogList = () => {
+  const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -35,7 +34,6 @@ const BlogList = (props: Props) => {
           justifyContent: "center",
         }}
       >
-        {" "}
         <BiLoaderCircle fontSize={"5rem"} />
       </div>
     );
