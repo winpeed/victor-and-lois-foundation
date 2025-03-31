@@ -46,9 +46,13 @@ const BlogList = () => {
           textAlign: "center",
           maxWidth: "600px",
           margin: "0 auto",
+          padding: "5em 0em",
+          justifyContent: "center",
         }}
       >
-        <h1>No post(s) found.</h1>
+        <h1 style={{ fontSize: "2rem", fontWeight: "600" }}>
+          No post(s) found.
+        </h1>
       </div>
     );
 
