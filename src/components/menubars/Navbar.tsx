@@ -35,7 +35,7 @@ const Navbar = () => {
             <img src="/VictorLoisLogo.svg" alt="logo" />
           </Link>
           <p className="text-xs font-semibold">
-            The Victor and Lois Abraham Foundation
+            The Victor & Lois Abraham Foundation
           </p>
         </div>
         <div className="md:flex hidden gap-14 items-center font-bold">

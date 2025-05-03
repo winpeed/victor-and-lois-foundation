@@ -12,7 +12,7 @@ const AboutPage = () => {
       <DynamicHero />
       <div className="py-10 font-medium text-xl text-center w-[90%] mx-auto opacity-50">
         <p className="sm:w-9/12 mx-auto">
-          The Victor and Lois Abraham foundation is a faith-based organization
+          The Victor & Lois Abraham foundation is a faith-based organization
           established in Lagos State, Nigeria in 2024.
         </p>
         <p className="sm:w-9/12 mx-auto">

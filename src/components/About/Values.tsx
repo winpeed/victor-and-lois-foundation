@@ -10,7 +10,7 @@ const Values = () => {
               OUR VALUES
             </h3>
             <p className="opacity-50 font-medium text-xl w-[85%] mx-auto mt-5">
-              At Victor and Lois Abraham Foundation, we are committed to the
+              At Victor & Lois Abraham Foundation, we are committed to the
               core values of faith, mercy, compassion, respect, integrity,
               accountability and innovation.
             </p>
