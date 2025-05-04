@@ -24,7 +24,7 @@ const Donate = () => {
           </p>
 
           <p className="sm:text-xl text-xs mx-auto  font-semibold mb-8">
-            <span className="text-black opacity-50"> ACCESS BANK PLC</span>
+            <span className="text-black opacity-50"> GUARANTY TRUST BANK (GTB) PLC</span>
           </p>
 
           <p className="sm:text-xl text-xs mx-auto font-semibold my-2">
