@@ -68,7 +68,7 @@ const BlogList = () => {
             style={{ alignItems: "flex-start" }}
             key={id}
           >
-            <div style={{ flex: "0 0 20%" }} className="w-full">
+            <div style={{ flex: "0 0 20%", marginLeft: "1em", marginTop: "1em" }} className="w-full">
               {blogImage ? (
                 <img
                   src={`https:${blogImage.fields.file.url}`}
