@@ -5,7 +5,7 @@ import BreakFree from "@/components/Contact/BreakFree";
 const BlogListing = () => {
   return (
     <div>
-      <DynamicHero backgroundImage="ContactImage.png" title="Blog" />
+      <DynamicHero backgroundImage="ContactImage.png" title="Information Center" />
       <BlogList />
       <div>
         <BreakFree />
