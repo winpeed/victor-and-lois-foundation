@@ -46,7 +46,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link className={`${getLinkClass("/blog")}`} to="/blog">
-            Blog
+            Information Center
           </Link>
           <Link className={`${getLinkClass("/explore")}`} to="/explore">
             Explore
@@ -87,7 +87,7 @@ const Navbar = () => {
                 onClick={showNav}
                 className={`${getLinkClass("/blog")} `}
               >
-                Blog
+                Information Center
               </Link>
               <Link
                 to="/explore"
