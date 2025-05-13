@@ -19,7 +19,8 @@ export const ContactInfo = () => {
 
         <div className="flex items-center gap-2">
           <img src={emailIcon} alt="email" />
-          <p>vandlfoundation@gmail.com</p>
+          <p>victorandloisfoundation@gmail.com</p> ,{" "}
+          <p>victorandloisabrahamfoundation@gmail.com</p>
         </div>
         {/* <div className="flex items-center gap-2">
           <img src={web} alt="email" />
@@ -100,7 +101,7 @@ const Footer = () => {
       </div>
       <section className="bg-white text-center my-5 text-FooterGreen">
         <p className="font-medium">
-          COPYRIGHT © VANDLFOUNDATION <span className="font-bold"> 2024</span>
+          COPYRIGHT © VICTOR & LOIS ABRAHAM FOUNDATION <span className="font-bold"> 2025</span>
         </p>
       </section>
     </footer>
