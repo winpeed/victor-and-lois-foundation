@@ -74,7 +74,9 @@ const Footer = () => {
                 <img
                   src="/VictorLoisLogo.jpeg"
                   alt="logo"
-                  className="w-full h-full"
+                  height={45}
+                  width={45}
+                  style={{ objectFit: "contain" }}
                 />
               </div>
             </Link>
@@ -101,7 +103,8 @@ const Footer = () => {
       </div>
       <section className="bg-white text-center my-5 text-FooterGreen">
         <p className="font-medium">
-          COPYRIGHT © VICTOR & LOIS ABRAHAM FOUNDATION <span className="font-bold"> 2025</span>
+          COPYRIGHT © VICTOR & LOIS ABRAHAM FOUNDATION{" "}
+          <span className="font-bold"> 2025</span>
         </p>
       </section>
     </footer>
