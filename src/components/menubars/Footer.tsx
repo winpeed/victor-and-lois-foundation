@@ -72,7 +72,7 @@ const Footer = () => {
             <Link to="/">
               <div className="h-48 w-48 mx-auto">
                 <img
-                  src="/VictorLoisLogo.svg"
+                  src="/VictorLoisLogo.jpeg"
                   alt="logo"
                   className="w-full h-full"
                 />

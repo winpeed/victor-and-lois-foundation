@@ -32,7 +32,7 @@ const Navbar = () => {
         )}
         <div className="flex gap-1 items-center md:w-[25%]">
           <Link to="/">
-            <img src="/VictorLoisLogo.svg" alt="logo" />
+            <img src="/VictorLoisLogo.jpeg" alt="logo" />
           </Link>
           <p className="text-xs font-semibold">
             The Victor & Lois Abraham Foundation
