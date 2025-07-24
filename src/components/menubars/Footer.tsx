@@ -14,7 +14,7 @@ export const ContactInfo = () => {
       <section className="font-semibold space-y-1 ">
         <div className="flex items-center gap-2">
           <PhoneIcon />
-          <p>+234 909 199 0711</p>
+          <p>+234 803 305 9609</p>
         </div>
 
         <div className="flex items-center gap-2">
