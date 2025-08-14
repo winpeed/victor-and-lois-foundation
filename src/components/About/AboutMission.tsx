@@ -10,15 +10,10 @@ const AboutMission = () => {
               MISSION AND VISION
             </h3>
             <p className="opacity-50 font-medium text-xl w-[85%] mx-auto mt-5">
-              Our Mission is to prevent individuals from venturing into the
-              downward road of addiction and prostitution, and bring out one at
-              a time, those who are already caught in the web through a
-              faith-based approach.
+             To guide individuals away from addiction through compassionate, faith-centered support, while equipping communities with the tools to prevent substance abuse and promote restoration.
             </p>
             <p className="opacity-50 font-medium text-xl w-[85%] mx-auto mt-5">
-              Our Vision is to create life changing dreams for drug addicts and
-              prostitutes through making transformational changes to their
-              lives.
+              To see transformed lives through a faith-based approach—empowering drug users to heal and thrive, and inspiring communities with hope, education, and resilience.
             </p>
           </div>
           <div className="sm:w-[35%]">
