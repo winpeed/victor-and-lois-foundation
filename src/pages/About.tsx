@@ -12,13 +12,10 @@ const AboutPage = () => {
       <DynamicHero />
       <div className="py-10 font-medium text-xl text-center w-[90%] mx-auto opacity-50">
         <p className="sm:w-9/12 mx-auto">
-          The Victor & Lois Abraham foundation is a faith-based organization
-          established in Lagos State, Nigeria in 2024.
+          The Victor & Lois Abraham foundation is a non-profit, faith-based organization established in Lagos State, Nigeria in 2025. Its impactful work traces back to 1986, reflecting decades of unwavering commitment to transforming lives.
         </p>
         <p className="sm:w-9/12 mx-auto">
-          Our primary objective is to reach out to drug addicts, alcoholics,
-          prostitutes, vulnerable children and those with failed marriages with
-          the intention to resuscitate hope and give their lives meaning.
+         Our primary objective is to support individuals struggling with drug addiction by restoring hope and helping them find purpose, while also promoting drug abuse education and prevention in schools, religious institutions, and communities.
         </p>
       </div>
       <section>
